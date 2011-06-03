@@ -1,3 +1,3 @@
 # jQuery Deferred
 
-Defer Javascript execution.
+Defer Javascript execution after DOMContentLoaded is ran.
