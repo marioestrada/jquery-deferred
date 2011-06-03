@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Page Title</title>
+</head>
+<body>
+
+	<h1>jQuery Deferred</h1>
+	
+	<ol>
+		<li id="test1"></li>
+		<li id="test2"></li>
+		<li id="test3"></li>
+	</ol>
+	
+<script type="text/deferred-javascript" data-delay="1500">
+	$('#test3').text('Test #3 ran with some delay.');
+</script>
+<script type="text/deferred-javascript" src="js/test.js"></script>
+<script type="text/deferred-javascript" data-delay="750">
+	$('#test1').text('Hello from test #1!');
+</script>
+
+<script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script src="jquery.deferred.js"></script>
+</body>
+</html>

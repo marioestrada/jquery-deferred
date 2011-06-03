@@ -1,0 +1,1 @@
+$('#test2').text('Test.js loaded and ran.');
